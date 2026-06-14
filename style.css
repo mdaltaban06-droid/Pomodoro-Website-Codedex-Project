@@ -1,0 +1,135 @@
+html{
+  font-family:"Asimovian", sans-serif;
+  font-size: larger;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 7px;
+  background: linear-gradient(-70deg,rgb(15, 172, 159) 10%,darkcyan,rgb(35, 87, 185), darkblue);
+  background-size: cover;
+}
+
+h1{
+  margin: auto;
+  text-align: center;
+  color: rgb(187, 130, 6);
+  position: relative;
+}
+
+ol{
+  text-align: center;
+  margin-left: 400px;
+  position: relative;
+  bottom: 90px;
+}
+
+ol > li{
+  margin: 20px;
+}
+
+p.greetings{
+  margin: 20px 0;
+  font-size: smaller;
+  text-align: center;
+}
+
+p.time{
+  margin: 20px 0;
+  position: relative;
+  top: 50px;
+  font-size: xx-large;
+}
+
+.message{
+  font-size: x-large;
+  display: inline;
+}
+
+.app-space {
+  width: 250px;
+  margin: 40px auto;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.app-circle{
+  position:relative;
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+}
+
+.semi-circle {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  box-sizing: border-box;
+  border: double 15px;
+}
+
+.left-side {
+  top: 0;
+  left: 0;
+  transform-origin: right center;
+  transform: rotate(0deg);
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-right: none;
+  z-index: 1;
+}
+
+.right-side {
+  top: 0;
+  left: 100px;
+  transform-origin: left center;
+  transform: rotate(0deg);
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-left: none;
+}
+
+.circle {
+  border-color: rgb(203, 224, 13);
+}
+
+.are-we-bout-to-start{
+  font-family: "Asimovian", sans-serif;
+  font-size: 250%;
+  position: relative;
+  top: 50px;
+  color: #4c0999;
+}
+
+button{
+ background: none;
+ border: none;
+ position: relative;
+ top: 50px;
+ text-transform: lowercase;
+ letter-spacing: 3px;
+}
+
+button:hover{
+  color:rgb(221, 151, 21);
+  cursor: pointer;
+}
+
+.work{
+  font-family: "Asimovian", sans-serif;
+  margin-left: 28.9%;
+  text-align: center;
+  background: rgb(175, 175, 38);
+  color: darkblue;
+  width: 500px;
+  height: 30px;
+  border-color: blueviolet;
+}
+
+#submitting{
+  font-family: "Asimovian", sans-serif;
+  margin-bottom: 100px;
+  height: 37px;
+  background-color: rgb(1, 7, 32);
+  color: white;
+  border: none;
+}
