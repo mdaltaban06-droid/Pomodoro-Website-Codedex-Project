@@ -162,4 +162,3 @@ submitButton.addEventListener("click",function() {
 }
 );
 
-console.log("Hello");
