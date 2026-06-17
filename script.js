@@ -162,5 +162,3 @@ submitButton.addEventListener("click",function() {
 }
 );
 
-console.log("Hello");
-console.log("stash try");
